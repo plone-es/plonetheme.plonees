@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="plonetheme.plones">
+
+    <includeDependencies package="." />
+
+    <genericsetup:registerProfile
+        name="default"
+        title="Plone.es Theme"
+        directory="profiles/default"
+        description="Extension profile for the Plone.es Theme"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <plone:static
+        directory="static"
+        type="theme"
+        name="plonetheme.plonees"
+        />
+
+</configure>

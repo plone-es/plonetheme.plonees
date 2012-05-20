@@ -1,0 +1,24 @@
+<div id="footer-portlets" class="row"
+     i18n:domain="Products.ContentWellPortlets">
+
+    <tal:comment tal:replace="nothing">
+         We only display the actual portlets if we are not on the portlet above content, below content, or footer managers.
+    </tal:comment>
+    <tal:block tal:condition="python: not request.get('URL').endswith('@@manage-portletsabovecontent') and not request.get('URL').endswith('@@manage-portletsbelowcontent') and not request.get('URL').endswith('@@manage-footerportlets')">
+        <div class="FooterPortletA cell position-0 width-3" tal:content="structure provider:ContentWellPortlets.FooterPortletManager1" />
+        <div class="FooterPortletB cell position-3 width-3" tal:content="structure provider:ContentWellPortlets.FooterPortletManager2" />
+        <div class="FooterPortletC cell position-6 width-3" tal:content="structure provider:ContentWellPortlets.FooterPortletManager3" />
+        <div class="FooterPortletD cell position-9 width-3" tal:content="structure provider:ContentWellPortlets.FooterPortletManager4" />
+        <div class="FooterPortletE cell position-12 width-4" tal:content="structure provider:ContentWellPortlets.FooterPortletManager5" />
+    </tal:block>
+
+    <div class="row visualClear">
+      <p class="manageFooterPortletsLink"
+         tal:condition="view/canManagePortlets">
+          <a href=""
+             class="managePortletsFallback"
+             tal:attributes="href view/manageUrl"
+             i18n:translate="manage-footer-portlet-link">Add, edit or remove a portlet in the footer</a>
+      </p>
+    </div>
+</div>

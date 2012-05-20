@@ -1,0 +1,14 @@
+<div class="visualClear"><!-- clear floats --></div>
+<div id ="portal-footer">
+
+  <div class="cc-license">
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/es/">
+      <img alt="Licencia de Creative Commons"
+      style="border-width:0"
+      src="/++theme++plonetheme.plonees/images/cc-by-sa-es.png" /></a>
+      El contenido de este sitio web es distribuido bajo una licencia de
+      <a rel="license"
+      href="http://creativecommons.org/licenses/by-sa/2.5/es/"><strong>Creative Commons</strong> Reconocimiento-CompartirIgual 2.5 España</a>.
+  </div>
+
+</div>

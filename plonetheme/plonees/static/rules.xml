@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <theme href="index.html" css:if-content="#visual-portal-wrapper"/>
+
+    <prepend content='/html/head' theme='/html/head' />
+    <copy attributes="class id dir" content="/html/body" theme="/html/body" />
+
+    <append theme="/html/head">
+        <link href="/++theme++plonetheme.plonees/css/plone-es.css"
+            media="screen"
+            type="text/css"
+            rel="stylesheet" />
+    </append>
+
+    <append css:theme="#portal-top" css:content="#portal-siteactions" />
+    <append css:theme="#portal-top" css:content-children="#portal-top" />
+    <replace css:theme="#portal-columns" css:content="#portal-columns" />
+    <copy css:theme="#footer-portlets" css:content="#footer-portlets" />
+    <copy css:theme="#footer-licence" css:content="#portal-footer div"/>
+
+    <after css:content="#kss-spinner" theme-children="/html/body" />
+
+</rules>
