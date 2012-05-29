@@ -1,0 +1,32 @@
+<div id="portlets-below"
+     class="row"
+     i18n:domain="Products.ContentWellPortlets">
+    <tal:comment tal:replace="nothing">
+         We only display the actual portlets if we are not on the portlet above content or below content managers.
+    </tal:comment>
+    <tal:block tal:condition="python: not request.get('URL').endswith('@@manage-portletsabovecontent') and not request.get('URL').endswith('@@manage-portletsbelowcontent') and not request.get('URL').endswith('@@manage-footerportlets')">
+
+        <div class="portletsBelowContentA cell position-0 width-6" tal:content="structure provider:ContentWellPortlets.BelowPortletManager1" />
+        <div id="portlets-right-group" class="cell position-6 width-10">
+          <div class="row">
+            <div class="portletsBelowContentB cell position-0 width-8" tal:content="structure provider:ContentWellPortlets.BelowPortletManager2" />
+            <div class="portletsBelowContentC cell position-8 width-8" tal:content="structure provider:ContentWellPortlets.BelowPortletManager3" />
+          </div>
+        </div>
+        <div class="visualClear"><!-- clear floats --></div>
+        <div class="portletsBelowContentD cell position-0 width-8" tal:content="structure provider:ContentWellPortlets.BelowPortletManager4" />
+        <div class="portletsBelowContentE cell position-8 width-8" tal:content="structure provider:ContentWellPortlets.BelowPortletManager5" />
+        <div class="visualClear"><!-- clear floats --></div>
+        <div class="portletsBelowContentF cell position-0 width-16" tal:content="structure provider:ContentWellPortlets.BelowPortletManager6" />
+        <div class="visualClear"><!-- clear floats --></div>
+    </tal:block>
+    <div class="row">
+      <p class="managePortletsBelowLink"
+         tal:condition="view/canManagePortlets">
+          <a href=""
+             class="managePortletsFallback"
+             tal:attributes="href view/manageUrl"
+             i18n:translate="manage_portlets_below_link">Add, edit or remove a portlet below the content</a>
+      </p>
+    </div>
+</div>
