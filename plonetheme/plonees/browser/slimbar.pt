@@ -1,0 +1,10 @@
+<div id="slimbar" >
+  <ul>
+    <tal:el tal:repeat="site view/communities">
+      <li><a tal:attributes="href site/url; title site/title"
+             tal:content="site/code">site</a>
+              </li>
+            </tal:el>
+      <li>
+  </ul>
+</div>

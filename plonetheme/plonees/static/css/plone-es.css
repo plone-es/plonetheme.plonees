@@ -474,4 +474,14 @@ dl.portlet ul.navTree li a:hover {
     -webkit-border-radius: 0.5em;
 }
 
+/* Slimbar */
+#slimbar ul {
+    font-weight: small;
+    margin: -20px 0 0 97px;
+    text-align: left;
+}
+#slimbar li {
+    padding: 0px 3px;
+}
+
 }

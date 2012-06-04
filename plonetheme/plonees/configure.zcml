@@ -7,6 +7,7 @@
     i18n_domain="plonetheme.plones">
 
     <includeDependencies package="." />
+    <include package=".browser" />
 
     <genericsetup:registerProfile
         name="default"

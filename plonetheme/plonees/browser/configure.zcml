@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="plonetheme.plones">
+
+    <browser:viewlet
+        name="plonetheme.plonees.slimbar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.SlimbarViewlet"
+        permission="zope2.View"
+        />
+
+</configure>
