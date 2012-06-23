@@ -393,13 +393,19 @@ dl.portlet ul.navTree li a:hover {
     background: transparent url("../images/rss_icon.png") 3px 5px no-repeat;
 }
 
+/* No Title No Description Pages */
+.portaltype-document-no-title-no-description #parent-fieldname-title,
+.portaltype-document-no-title-no-description #parent-fieldname-description {
+    display: none;
+}
+
 /*** HOME ***/
 .section-home-page #portal-breadcrumbs,
 .section-home-page #parent-fieldname-title,
 .section-home-page #parent-fieldname-description {
     display: none;
 }
-.splash {
+.section-home-page .splash {
     background:url("../images/home-page-image.png") no-repeat scroll 0 0;
     color: white;
     font-size: 110%;
@@ -468,11 +474,19 @@ dl.portlet ul.navTree li a:hover {
 }
 .section-home-page #portlets-right-group {
     padding: 1em 1em 0 0;
-    background-color:#EFF0F1;
+    background-color:#DDD;
     border-radius:0.5em;
     -moz-border-radius:0.5em;
     -webkit-border-radius: 0.5em;
 }
+.section-home-page #portlets-right-group dt.portletHeader a,
+.section-home-page #portlets-right-group dt.portletHeader a:visited,
+.section-home-page #portlets-right-group dt.portletHeader a:link {
+    text-decoration: none;
+    border:0;
+    color: #000000;
+}
+
 
 /* Slimbar */
 #slimbar ul {
@@ -482,6 +496,120 @@ dl.portlet ul.navTree li a:hover {
 }
 #slimbar li {
     padding: 0px 3px;
+}
+
+/* Descubre */
+#portlets-descubre-right h2,
+#portlets-descubre-center h2,
+#portlets-descubre-left h2 {
+    font-size: 100%;
+    margin-bottom:0.5em;
+}
+#portlets-descubre-left {
+    padding: 1em 0 1em 1em;
+    background-color:#EFF0F1;
+    border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
+}
+#portlets-descubre-center li {
+    display:block;
+ margin:0.7em 0 0 1em;
+}
+#portlets-descubre-center li a {
+background:url("../images/blue-arrow.gif") no-repeat scroll left 2px White;
+padding-left:18px;
+}
+#portlets-descubre-center ul {
+ margin:0;
+}
+#portlets-descubre-center ul a:link,
+#portlets-descubre-center ul a:visited,
+#portlets-descubre-center ul a {
+    border:0;
+}
+#portlets-descubre-center dt {
+    font-size: 115%;
+}
+#portlets-descubre-right   img.image-left {
+    border:0;
+}
+#portlets-descubre-right .descubre {
+    display: block;
+    text-align: right;
+    font-size: 95%;
+}
+#portlets-descubre-right .descubre a {
+    border:0;
+}
+#portlets-descubre-right a.descarga {
+    background: url("../images/download-plone.png") no-repeat scroll center top white;
+    clear: both;
+    color: white !important;
+    display: block;
+    height: 43px;
+    line-height: 40px;
+    padding: 1px 10px 0 46px;
+    border: 0 !important;
+}
+#portlets-descubre-right a.descarga:hover  {
+background:url("../images/download-plone.png") no-repeat scroll center -44px white;
+text-shadow:2px 2px 0.2em #CCCCCC;
+color: white !important;
+}
+a.descarga span {
+color:white !important;
+padding:0 0 0 35px;
+text-shadow:2px 2px 0.2em #CCCCCC;
+}
+#case-study {
+    background:url("../images/splash.png") no-repeat scroll 0 0;
+    color: white;
+    font-size: 1.5em;
+    line-height:1.5;
+    padding: 1em 0.5em 0.5em 0.5em;
+    background-color:#EFF0F1;
+    border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
+    margin-bottom:1em;
+    display: block;
+}
+#case-study a,
+#case-study a:visited,
+#case-study a:hover {
+    color: white !important;
+    border: none !important;
+    text-decoration:none;
+}
+#descubre-como a,
+#descubre-como a:visited,
+#descubre-como a:hover {
+    color: white !important;
+    border: 0;
+}
+#descubre-como a,
+#descubre-como a:visited {
+    float: right;
+    margin-right: 1em;
+    padding-right: 1em;
+    background: url("../images/arrow.gif") no-repeat scroll right 12px transparent;
+    font-size: 1.3em;
+    font-weight:bold;
+    border: 0 !important;
+    text-decoration:none;
+}
+
+
+/* Participa */
+.well {
+    font-size: 130%;
+    margin:1em 0em;
+    padding: 1em 0.5em 0.5em 0.5em;
+    background-color:#DDD;
+    border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
 }
 
 }
