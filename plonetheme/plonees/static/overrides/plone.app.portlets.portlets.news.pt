@@ -7,9 +7,8 @@
 
     <dt class="portletHeader">
         <span class="portletTopLeft"></span>
-        <a href="#"
+        <a href="/noticias"
            class="tile"
-           tal:attributes="href view/all_news_link"
            i18n:translate="box_news">News</a>
         <span class="portletTopRight"></span>
     </dt>
