@@ -486,7 +486,17 @@ dl.portlet ul.navTree li a:hover {
     border:0;
     color: #000000;
 }
-
+.spotlight {
+    color: #666666;
+    font: bold 1.2em "Helvetica Neue",Arial,FreeSans,sans-serif !important;
+    margin-top: 1em;
+    margin-left: 13px;
+}
+.spotlight-discreet {
+    color: #666666;
+    font-size: 12px;
+    font-weight: normal;
+}
 
 /* Slimbar */
 #slimbar ul {
