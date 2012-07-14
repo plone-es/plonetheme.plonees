@@ -149,7 +149,7 @@ ul#portal-globalnav  {
     position: absolute;
     right: 0px;
     font-size: 85%;
-    margin: 7px 77px 7px 0px;
+    margin: 7px 0px;
     padding-bottom: 0em;
     z-index: 10;
 }
@@ -160,7 +160,9 @@ ul#portal-globalnav  {
    color: #747476;
 }
 
-#portal-personaltools {padding-top:7px;}
+#portal-personaltools {
+    padding-top:7px;
+}
 
 #portal-breadcrumbs {
     font-size: 75%;

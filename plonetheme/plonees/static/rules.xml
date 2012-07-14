@@ -16,7 +16,7 @@
             rel="stylesheet" />
     </append>
 
-    <append css:theme="#portal-top" css:content="#portal-siteactions" />
+    <append css:theme="#siteactions" css:content="#portal-siteactions" />
     <append css:theme="#portal-top" css:content-children="#portal-top" />
     <replace css:theme="#portal-columns" css:content="#portal-columns" />
     <copy css:theme="#footer-portlets" css:content="#footer-portlets" />
