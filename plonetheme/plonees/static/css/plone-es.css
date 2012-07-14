@@ -375,6 +375,22 @@ dl.portlet ul.navTree li a:hover {
     background-color: #F3F3F3;
 }
 
+#document-toc {
+    margin:0;
+    margin-left:1em;
+    padding-top:1em;
+    background-color:#DDD;
+    border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
+}
+#document-toc .portletHeader {
+    padding-bottom:1em;
+}
+#content a:link, dl.portlet a:link {
+    border: 0 none;
+}
+
 /*** Links Icons ***/
 .external_plonesite {
   background-image: url("../images/ico_link.gif");
