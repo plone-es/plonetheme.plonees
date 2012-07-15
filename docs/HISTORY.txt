@@ -1,7 +1,17 @@
 Changelog
 =========
 
+1.1 (2012-07-15)
+----------------
+
+* Fix siteactions position
+* Add CSS style for spotlight
+* Set CSS style for document-toc
+* Register the CSS stylesheet
+* Add "Last News" portlet
+* Add tests
+
 1.0 (2012-06-27)
 ----------------
 
-- Initial release
+* Initial release
