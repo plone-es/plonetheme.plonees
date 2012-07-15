@@ -1,0 +1,56 @@
+# Plone.es Theme Translations
+# Danilo Dellaquila <ddellaquila@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1\n"
+"POT-Creation-Date: 2012-07-15 10:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: Danilo Dellaquila <ddellaquila@gmail.com>\n"
+"Language-Team: Plone.es <usuarios-plone@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plonetheme.plonees\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: ./profiles/default/portlets.xml
+#: ./browser/lastnews.py:45
+msgid "Last News"
+msgstr ""
+
+#: ./profiles/default/portlets.xml
+msgid "A portlet which can show last news with their descriptions."
+msgstr ""
+
+#: ./browser/lastnews.py:94
+msgid "Add Last News Portlet"
+msgstr ""
+
+#: ./browser/lastnews.py:103
+msgid "Edit Last News Portlet"
+msgstr ""
+
+#: ./browser/lastnews.py:23
+msgid "How many items to list."
+msgstr ""
+
+#: ./browser/lastnews.py:28
+msgid "Items in which workflow state to show."
+msgstr ""
+
+#: ./browser/lastnews.py:22
+msgid "Number of items to display"
+msgstr ""
+
+#: ./browser/lastnews.py:27
+msgid "Workflow state"
+msgstr ""
+
+#: ./browser/lastnews.py:95
+msgid "This portlet displays Last News items with their descriptions."
+msgstr ""
+

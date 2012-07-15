@@ -1,0 +1,27 @@
+# Plone.es Theme Translations
+# Danilo Dellaquila <ddellaquila@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1\n"
+"POT-Creation-Date: 2012-07-15 10:13+0000\n"
+"PO-Revision-Date: 2012-07-15 10:13+0000\n"
+"Last-Translator: Danilo Dellaquila <ddellaquila@gmail.com>\n"
+"Language-Team: Plone.es <usuarios-plone@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: ./profiles/default/portlets.xml
+msgid "Last News"
+msgstr "Ùltimas Noticias"
+
+#: ./profiles/default/portlets.xml
+msgid "A portlet which can show last news with their descriptions."
+msgstr "Un portlet que puede mostrar las ùltimas noticias con sus descripciones."
+

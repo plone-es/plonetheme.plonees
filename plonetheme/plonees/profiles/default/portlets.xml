@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<portlets
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="plone">
+
+    <portlet
+       addview="plonetheme.plonees.LastNews"
+       title="Last News"
+       description="A portlet which can show last news with their descriptions."
+       i18n:attributes="title;
+                        description"
+       />
+
+</portlets>

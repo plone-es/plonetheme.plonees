@@ -17,3 +17,6 @@ Paste*
 #
 # Package distribution
 dist
+#
+# Compiled translations files
+*.mo
