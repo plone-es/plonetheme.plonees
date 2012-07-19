@@ -388,6 +388,10 @@ dl.portlet ul.navTree li a:hover {
 #document-toc .portletHeader {
     padding-bottom:1em;
 }
+#document-toc dd {
+    margin:0;
+    padding-right:1em;
+}
 #content a:link, dl.portlet a:link {
     border: 0 none;
 }
