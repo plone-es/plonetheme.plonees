@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2b1 (2012-07-22)
+------------------
+
+* Set CSS style for inline code
+* Fix CSS style for document-toc
+
 1.1 (2012-07-15)
 ----------------
 
