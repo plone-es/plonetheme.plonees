@@ -14,6 +14,13 @@
         permission="zope2.View"
         />
 
+  <browser:viewlet
+        name="plonetheme.plonees.site_actions"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.SiteActionsViewlet"
+        permission="zope2.View"
+      />
+
     <plone:portlet
         name="plonetheme.plonees.LastNews"
         interface=".lastnews.ILastNewsPortlet"

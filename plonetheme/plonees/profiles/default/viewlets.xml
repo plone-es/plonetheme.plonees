@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<object>
+  <order manager="plone.portalheader" skinname="*">
+    <viewlet name="plonetheme.plonees.site_actions" insert-before="*" />
+  </order>
+  <hidden  manager="plone.portalheader" skinname="*">
+    <viewlet name="plone.personal_bar"/>
+  </hidden>
+</object>
