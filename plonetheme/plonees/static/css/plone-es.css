@@ -519,7 +519,7 @@ dl.portlet ul.navTree li a:hover {
     font-weight: normal;
 }
 
-/* Slimbar */
+/* Slimbars */
 #slimbar-es ul {
     font-weight: small;
     margin: -20px 0 0 97px;
@@ -527,6 +527,9 @@ dl.portlet ul.navTree li a:hover {
 }
 #slimbar-es li {
     padding: 0px 3px;
+}
+#slimbar .navbar-inner {
+    padding: 2px 0px 0px 20px;
 }
 
 /* Descubre */
