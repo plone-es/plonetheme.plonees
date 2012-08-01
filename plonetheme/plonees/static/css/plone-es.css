@@ -520,12 +520,12 @@ dl.portlet ul.navTree li a:hover {
 }
 
 /* Slimbar */
-#slimbar ul {
+#slimbar-es ul {
     font-weight: small;
     margin: -20px 0 0 97px;
     text-align: left;
 }
-#slimbar li {
+#slimbar-es li {
     padding: 0px 3px;
 }
 
