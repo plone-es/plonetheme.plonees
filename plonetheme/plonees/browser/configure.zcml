@@ -19,7 +19,7 @@
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class=".viewlets.SiteActionsViewlet"
         permission="zope2.View"
-      />
+        />
 
     <plone:portlet
         name="plonetheme.plonees.LastNews"
@@ -30,5 +30,12 @@
         editview=".lastnews.EditForm"
         />
 
+    <browser:page
+        for="Products.ATContentTypes.interfaces.document.IATDocument"
+        name="home_view"
+        template = "home_view.pt"
+        permission = "zope2.View"
+        layer = ".interfaces.IThemeSpecific"
+        />
 
 </configure>

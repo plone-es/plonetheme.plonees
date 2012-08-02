@@ -1,0 +1,34 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="plone">
+<body>
+<metal:description fill-slot="content-title"/>
+<metal:description fill-slot="content-description"/>
+
+<metal:content-core fill-slot="content-core">
+    <metal:content-core define-macro="content-core">
+        <metal:field use-macro="python:context.widget('text', mode='view')">
+            Body text
+        </metal:field>
+
+<script charset="utf-8" type="text/javascript">
+        (function ($) {
+            $('#carousel-home').ploneCarousel({
+                height: 334,
+                width: 227,
+                transition: 'fade',
+                speed: 500,
+                delay: 5000
+            });
+        })(jQuery);
+</script>
+
+    </metal:content-core>
+</metal:content-core>
+
+</body>
+</html>
