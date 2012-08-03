@@ -646,4 +646,41 @@ text-shadow:2px 2px 0.2em #CCCCCC;
     -webkit-border-radius: 0.5em;
 }
 
+/* Carousel */
+.carousel-text {
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+.carousel-pager {
+    margin: 5px 25px 15px 30px;
+    text-align: right;
+}
+.carousel-pager-item,
+.carousel-pager-button-prev,
+.carousel-pager-button-next {
+    background-color: #EFF0F1;
+    border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
+}
+.carousel-pager-item-active {
+    background-color: #EFF0F1;
+    border-radius:0.5em;
+    -moz-border-radius:0.5em;
+    -webkit-border-radius: 0.5em;
+}
+.carousel-pager-item:link,
+.carousel-pager-item:visited,
+.carousel-pager-item
+.carousel-title {
+    color: #383D3F;
+}
+.carousel-pager-item-active:link,
+.carousel-pager-item-active:visited,
+.carousel-pager-item-active
+.carousel-title {
+    color: #0089D9;
+}
+
 }
