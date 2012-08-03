@@ -24,4 +24,6 @@
     <after css:content="#kss-spinner" theme-children="/html/body" />
 
     <drop css:content="#portal-breadcrumbs"  if-path="/descubre/" />
+    <drop css:content="#portal-breadcrumbs"  if-path="/participa/" />
+
 </rules>
